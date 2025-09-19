@@ -6,13 +6,10 @@ export default function TabOneScreen() {
     <View style={styles.container}>
       {/* Logo */}
       <Image
-        source={require('@/assets/images/favicon.png')} // replace with actual logo path
+        source={require('@/assets/images/edulogo.png')} // replace with actual logo path
         style={styles.logo}
         resizeMode="contain"
       />
-
-      {/* App Name */}
-      <Text style={styles.appName}>EDUTRACK</Text>
 
       {/* Buttons */}
       <TouchableOpacity style={styles.button}>
@@ -37,8 +34,8 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   logo: {
-    width: 120,
-    height: 120,
+    width: 240,
+    height: 240,
     marginBottom: 10,
   },
   appName: {
@@ -50,7 +47,7 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: '#007BFF', // blue buttons
     paddingVertical: 12,
-    paddingHorizontal: 50,
+    paddingHorizontal: 100,
     borderRadius: 20,
     marginVertical: 10,
   },
